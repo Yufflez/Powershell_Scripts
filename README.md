@@ -1,2 +1,2 @@
 # Powershell_Scripts
-Various Powershell Scripts
+Various PowerShell scripts I created for various enterprise-related job functions.
