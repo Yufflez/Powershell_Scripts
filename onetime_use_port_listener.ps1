@@ -1,0 +1,1 @@
+$listener = [System.Net.Sockets.TcpListener]::new([System.Net.IPAddress]::Any, 443); $listener.Start(); Write-Host "Listening on port 443..."; $client = $listener.AcceptTcpClient(); Write-Host "Connected from $($client.Client.RemoteEndPoint)!"; $client.Close(); $listener.Stop()
